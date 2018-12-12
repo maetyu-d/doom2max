@@ -9,7 +9,7 @@ Visual flow is:
 
 Doom2 (via doomsday engine) => Syphoner => Max (jit.gl.syphonclient)
 
-Within **doom2 AV.maxpat** (included in the project zip file), the visual part of the patch firstly tracks brightness in a small square around the centre of the screen. If the pistol (specifically the pistol, but may work for other guns too - untested) is fired, the brightness of the square reaches 250 (i.e. bright white), with the select object being used to trigger further audio and visual processing: essentially, firing the gun triggers a transition into two seconds of trippy, wobbly audiovisual disorientation via stereo variable delay line (audio) and video feedback+rotation (visual), the parameters of which are lightly randomised. 
+Within **doom2 AV.maxpat** (included in the project zip file), the visual part of the patch firstly tracks brightness in a small square around the centre of the screen. If the pistol (specifically the pistol, but may work for other guns too - untested) is fired, the brightness of the square reaches 250 (i.e. bright white), with the select object being used to trigger further audio and visual processing: essentially, firing the pistol triggers a transition into two seconds of trippy/wobbly audiovisual disorientation via a stereo variable delay line (audio) and video feedback plus rotation (visual); the parameters of which are lightly randomised. The effect is also cumulative - the more times the pistol is fired in quick succession, the more distorted the visual becomes; and the more difficult it is to continue to play.
 
 Required software:
 

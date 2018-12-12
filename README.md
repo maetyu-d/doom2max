@@ -17,5 +17,5 @@ Required software:
 - [Syphoner](http://www.sigmasix.ch/syphoner/)
 - Doom2 (I've used the [Doomsday engine](http://dengine.net/) version, but others should work too)
 
-If you're on Windows rather than Mac, you could try using [Sprout](http://spout.zeal.co/) or jit.desktop (from within Max) instead of Syphon/er (both are untested). 
+If you're on Windows rather than Mac, you could try using [Sprout](http://spout.zeal.co/) or jit.desktop (from within Max) instead of Syphon/er (both are untested). Xsplit gamecaster is another possiblity (also untested).
 
